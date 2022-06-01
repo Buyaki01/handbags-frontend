@@ -1,6 +1,6 @@
 import './App.css';
 
-function App() {
+const Footer = () => {
   return (
     <div className="App">
       
