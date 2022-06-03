@@ -1,9 +1,11 @@
 import './App.css';
+import Handbags from './components/handbags/Handbags'
 
-const Footer = () => {
+const App = () => {
   return (
-    <div className="App">
-      
+    <div>
+      <h2> Hello World! </h2>
+      <Handbags />
     </div>
   );
 }
