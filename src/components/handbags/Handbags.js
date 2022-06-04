@@ -37,6 +37,61 @@ const Handbags = () => (
         <img src="../assets/images/mainimg.png" alt="" className="img-responsive w-100" />
       </div>
     </div>
+
+    <article class="new-releases pt-2 pb-5">
+      <div class="hot-releases-title pt-3">
+          <h4> Hot new releases </h4>
+      </div>
+      <div class="card new-releases1">
+        <div class="new-releases-img">
+          <a href="handbags.html"> <img class="card-img-top img-responsive w-100" src="asset/images/moreimg6.png" alt="" /> </a>
+        </div>
+        <div class="card-body">
+            <h4 class="card-title"> <a href="#"> <span class="money"> Sh. 1200 </span> </a></h4>
+            <p class="card-text"> Sling Bag, Leather </p>
+            <div class="review">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i> 1 review
+            </div>
+        </div>
+      </div>
+
+      <div class="card new-releases2 pt-5 pl-5">
+        <div class="new-releases-img">
+          <a href="handbags.html"> <img class="card-img-top img-responsive w-50 pt-3 pl-3" src="asset/images/hotrelease2.png" alt="Card image" /> </a>
+        </div>
+        <div class="card-body">
+          <h4 class="card-title"> <span class="money"> Sh.280 </span> </h4>
+          <p class="card-text"> <a href="#"> Top-handle Bag, Designer </a> </p>
+          <div class="review">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i> 1 review
+          </div>
+        </div>
+      </div>
+      <div class="card new-releases3 pt-5 pl-5">
+        <div class="new-releases-img">
+          <a href="handbags.html"><img class="card-img-top img-responsive w-50 pt-3 pl-3" src="asset/images/hotrelease1.png" alt="" /> </a>
+        </div>
+        <div class="card-body">
+          <h4 class="card-title"> <span class="money"> Sh.480 </span> </h4>
+          <p class="card-text"> <a href="#"> Wristlets, Imported </a> </p>
+          <div class="no-review">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i> no review
+          </div>
+        </div>
+      </div>
+    </article>
   </main>
 );
 
