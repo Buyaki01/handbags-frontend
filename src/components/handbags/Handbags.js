@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Handbags = () => {
   return(
     <main class="container-fluid">
@@ -8,7 +10,7 @@ const Handbags = () => {
                 <a href="#" class="btn view-more-btn"> <span> View More </span> </a>
             </div>
             <div class="main-content-img">
-                <img src="src/assets/images/mainimg.png" alt="main image" class="img-responsive w-100" />
+                <img src="./assets/images/mainimg.png" alt="main image" class="img-responsive w-100" />
             </div>
         </div>
     </main>
