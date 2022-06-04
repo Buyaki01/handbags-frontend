@@ -893,6 +893,7 @@ body a {
   .new-releases .hot-releases-title {
     grid-row: 1;
     grid-column: 1;
+    color: #92D43B;
   }
 
   .new-releases .new-releases1 {
