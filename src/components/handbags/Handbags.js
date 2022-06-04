@@ -1,4 +1,6 @@
 import React from 'react';
+import Reviews from '../reviews/Reviews.js';
+import Location from './Location.js';
 import Footer from './Footer.js'
 
 const Handbags = () => (
@@ -232,6 +234,8 @@ const Handbags = () => (
 
         <a href="handbags.html" class="btn view-more-btn more-img7 mt-3"> View More </a>
       </article>
+      {/* <Reviews />
+      <Location /> */}
     </main>
     <div>
       <Footer />
