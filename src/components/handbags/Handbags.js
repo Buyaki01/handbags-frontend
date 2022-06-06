@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaUser, FaShoppingCart } from "react-icons/fa";
 import Reviews from '../reviews/Reviews.js';
 import Location from './Location.js';
 import Footer from './Footer.js'
@@ -15,16 +16,18 @@ const Handbags = () => (
         </div>
         <div className="nav-link-icons">
           <ul className="nav-links">
-            <li className="handbags-link">
-              {/* <a href="#"> Handbags </a> */}
+            <input type="text" placeholder=" Search.." />
+            <li className="nav-icons ml-3">
+              <div className='d-flex'> 
+                <FaUser /> 
+                <span className='ml-1'> Account </span>
+              </div>
             </li>
-            {/* <li class="handbag-details-link"> <a href="#"> Handbag Details </a></li> */}
-            <li className="nav-icons">
-              <button type="button" className="fas fa-bars collaps"> </button>
-              <i className="fas fa-heart" />
-              {/* <a href="#">
-                <i className="fas fa-shopping-cart" />
-              </a> */}
+            <li className="nav-icons ml-3">
+              <div className='d-flex'>
+                <FaShoppingCart />
+                <span className='ml-1'> Cart </span>
+              </div>
             </li>
           </ul>
         </div>
