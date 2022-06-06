@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Navbar from './Navbar.js';
 import Reviews from '../reviews/Reviews.js';
 import Location from './Location.js';
@@ -31,7 +32,10 @@ const Handbags = () => (
           </div>
           <div class="card-body">
               <h4 class="card-title"> <a href="#"> <span class="money"> Sh. 1200 </span> </a></h4>
-              <p class="card-text"> Sling Bag, Leather </p>
+              <p class="card-text"> 
+                <Link to="/details"> Sling Bag, Leather 
+                </Link>
+              </p>
               <div class="review">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
