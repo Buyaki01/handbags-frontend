@@ -21,7 +21,9 @@ const Navbar = () => (
         <li className="nav-icons ml-3">
           <div className='d-flex'>
             <FaShoppingCart />
-            <span className='ml-1'> Cart </span>
+            <span className='ml-3'> Cart </span>
+            <span class="relative right-0 -top-2 -left-12 rounded-full bg-lime-300 w-4 h-4 top right p-0 m-0 text-white font-mono text-sm  leading-tight text-center">5
+    </span>
           </div>
         </li>
       </ul>
