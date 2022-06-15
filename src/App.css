@@ -89,6 +89,10 @@ body a {
   padding-top: 15px;
 }
 
+.reactIcons{
+  color: #d40d9a;
+}
+
 .main-content {
   display: grid;
   grid-template-columns: 1fr repeat(2, 2fr) 1fr;

@@ -18,7 +18,7 @@ const Handbags = () => (
           </a> */}
         </div>
         <div className="main-content-img">
-          <img src="./assets/images/mainimg.png" alt="" className="img-responsive w-100" />
+          <img src="../assets/images/mainimg.png" alt="" className="img-responsive w-100" />
         </div>
       </div>
 
