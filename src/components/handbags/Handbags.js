@@ -28,7 +28,7 @@ const Handbags = () => (
         </div>
         <div class="card new-releases1">
           <div class="new-releases-img">
-            <a href="handbags.html"> <img class="card-img-top img-responsive w-100" src="../assets/images/moreimg6.png" alt="" /> </a>
+            <a href="handbags.html"> <img src="../assets/images/moreimg6.png" class="card-img-top img-responsive w-100" alt="" /> </a>
           </div>
           <div class="card-body">
               <h4 class="card-title"> <a href="#"> <span class="money"> Sh. 1200 </span> </a></h4>
