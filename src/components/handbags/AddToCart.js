@@ -12,7 +12,7 @@ const AddToCart = () => (
       <div className='col-lg-7 shadow-lg'>
         <div className='row p-3'>
           <div className='col-lg-4'>
-            <img src="" alt="" className='img-responsive' />
+            <img src="https://www.pngkey.com/png/full/371-3719602_see-more-photos-to-dior-handbags-price-miss.png" alt="" class="img-responsive w-50" />
           </div>
           <div className='col-lg-4 text-black-500'>
             <h4> Top-handle Bag, Designer </h4>
