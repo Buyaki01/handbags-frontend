@@ -1184,3 +1184,12 @@ body a {
     justify-content: flex-start;
   }
 }
+
+/* Add to cart */
+.addToCartHeading{
+  color: #d40d9a;
+}
+.remove-btn{
+  margin-top: -3px;
+  margin-left: 10px;
+}
